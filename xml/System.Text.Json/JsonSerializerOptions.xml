@@ -9,6 +9,7 @@
     <AssemblyName>System.Text.Json</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -38,10 +39,32 @@ For more information, see [How to serialize and deserialize JSON](~/docs/standar
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Text.Json.JsonSerializerOptions" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public JsonSerializerOptions (System.Text.Json.JsonSerializerOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Text.Json.JsonSerializerOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonSerializerOptions.#ctor(System.Text.Json.JsonSerializerOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (options As JsonSerializerOptions)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; JsonSerializerOptions(System::Text::Json::JsonSerializerOptions ^ options);" />
+      <MemberSignature Language="F#" Value="new System.Text.Json.JsonSerializerOptions : System.Text.Json.JsonSerializerOptions -&gt; System.Text.Json.JsonSerializerOptions" Usage="new System.Text.Json.JsonSerializerOptions options" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" Index="0" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="options">To be added.</param>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -57,6 +80,7 @@ For more information, see [How to serialize and deserialize JSON](~/docs/standar
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -91,6 +115,7 @@ For more information, see [How to serialize and deserialize JSON](~/docs/standar
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.Text.Json.Serialization.JsonConverter&gt;</ReturnType>
@@ -123,6 +148,7 @@ For more information, see [How to write custom converters](~/docs/standard/seria
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -160,6 +186,7 @@ We recommend that you leave this value unchanged unless changing it makes an obs
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Json.JsonNamingPolicy</ReturnType>
@@ -196,6 +223,7 @@ For more information, see [How to serialize and deserialize JSON](~/docs/standar
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Encodings.Web.JavaScriptEncoder</ReturnType>
@@ -226,6 +254,7 @@ For more information, see [How to serialize and deserialize JSON](~/docs/standar
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Json.Serialization.JsonConverter</ReturnType>
@@ -260,6 +289,7 @@ For more information, see [How to serialize and deserialize JSON](~/docs/standar
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -292,6 +322,7 @@ For more information, see [Exclude all null value properties](~/docs/standard/se
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -328,6 +359,7 @@ For more information, see [How to serialize and deserialize JSON](~/docs/standar
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -360,6 +392,7 @@ Going past this depth throws a <xref:System.Text.Json.JsonException>.
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -393,6 +426,7 @@ For more information, see [How to serialize and deserialize JSON](~/docs/standar
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Json.JsonNamingPolicy</ReturnType>
@@ -429,6 +463,7 @@ For more information, see [How to serialize and deserialize JSON](~/docs/standar
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Json.JsonCommentHandling</ReturnType>
@@ -451,6 +486,27 @@ For more information, see [How to serialize and deserialize JSON](~/docs/standar
         <exception cref="T:System.ArgumentOutOfRangeException">The comment handling enum is set to a value that is not supported (or not within the <see cref="T:System.Text.Json.JsonCommentHandling" /> enum range).</exception>
       </Docs>
     </Member>
+    <Member MemberName="ReferenceHandling">
+      <MemberSignature Language="C#" Value="public System.Text.Json.Serialization.ReferenceHandling ReferenceHandling { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Text.Json.Serialization.ReferenceHandling ReferenceHandling" />
+      <MemberSignature Language="DocId" Value="P:System.Text.Json.JsonSerializerOptions.ReferenceHandling" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReferenceHandling As ReferenceHandling" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Text::Json::Serialization::ReferenceHandling ^ ReferenceHandling { System::Text::Json::Serialization::ReferenceHandling ^ get(); void set(System::Text::Json::Serialization::ReferenceHandling ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.ReferenceHandling : System.Text.Json.Serialization.ReferenceHandling with get, set" Usage="System.Text.Json.JsonSerializerOptions.ReferenceHandling" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Text.Json</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Text.Json.Serialization.ReferenceHandling</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="WriteIndented">
       <MemberSignature Language="C#" Value="public bool WriteIndented { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool WriteIndented" />
@@ -463,6 +519,7 @@ For more information, see [How to serialize and deserialize JSON](~/docs/standar
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

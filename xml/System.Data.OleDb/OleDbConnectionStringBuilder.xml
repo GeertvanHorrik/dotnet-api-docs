@@ -1,6 +1,6 @@
 <Type Name="OleDbConnectionStringBuilder" FullName="System.Data.OleDb.OleDbConnectionStringBuilder">
   <TypeSignature Language="C#" Value="public sealed class OleDbConnectionStringBuilder : System.Data.Common.DbConnectionStringBuilder" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OleDbConnectionStringBuilder extends System.Data.Common.DbConnectionStringBuilder" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OleDbConnectionStringBuilder extends System.Data.Common.DbConnectionStringBuilder" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
   <TypeSignature Language="DocId" Value="T:System.Data.OleDb.OleDbConnectionStringBuilder" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OleDbConnectionStringBuilder&#xA;Inherits DbConnectionStringBuilder" />
   <TypeSignature Language="C++ CLI" Value="public ref class OleDbConnectionStringBuilder sealed : System::Data::Common::DbConnectionStringBuilder" />
@@ -15,23 +15,24 @@
     <AssemblyName>System.Data.OleDb</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Data.Common.DbConnectionStringBuilder</BaseTypeName>
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8;dotnet-plat-ext-3.0;netcore-3.0;dotnet-plat-ext-3.1">
-      <AttributeName>System.ComponentModel.DefaultProperty("Provider")</AttributeName>
+    <Attribute>
+      <AttributeName Language="C#">[System.ComponentModel.DefaultProperty("Provider")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultProperty("Provider")&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8;dotnet-plat-ext-3.0;netcore-3.0;dotnet-plat-ext-3.1">
-      <AttributeName>System.ComponentModel.TypeConverter(typeof(System.Data.OleDb.OleDbConnectionStringBuilder/OleDbConnectionStringBuilderConverter))</AttributeName>
+    <Attribute>
+      <AttributeName Language="C#">[System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1">
-      <AttributeName>System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netcore-3.0">
-      <AttributeName>System.ComponentModel.RefreshProperties</AttributeName>
+    <Attribute>
+      <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Data.OleDb.OleDbConnectionStringBuilder/OleDbConnectionStringBuilderConverter))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Data.OleDb.OleDbConnectionStringBuilder/OleDbConnectionStringBuilderConverter))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -119,6 +120,7 @@ Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Sample.mdb;User ID="Admin;NewVal
         <AssemblyName>System.Data.OleDb</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -145,6 +147,7 @@ Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Sample.mdb;User ID="Admin;NewVal
         <AssemblyName>System.Data.OleDb</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -195,6 +198,7 @@ Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Sample.mdb;User ID="Admin;NewVal
         <AssemblyName>System.Data.OleDb</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -242,6 +246,7 @@ Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Sample.mdb;User ID="Admin;NewVal
         <AssemblyName>System.Data.OleDb</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -290,16 +295,16 @@ Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Sample.mdb;User ID="Admin;NewVal
         <AssemblyName>System.Data.OleDb</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8;dotnet-plat-ext-3.0;netcore-3.0;dotnet-plat-ext-3.1">
-          <AttributeName>System.ComponentModel.DisplayName("Data Source")</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.DisplayName("Data Source")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DisplayName("Data Source")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1">
-          <AttributeName>System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0">
-          <AttributeName>System.ComponentModel.RefreshProperties</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -345,22 +350,24 @@ Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Sample.mdb;User ID="Admin;NewVal
         <AssemblyName>System.Data.OleDb</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8;dotnet-plat-ext-3.0;netcore-3.0;dotnet-plat-ext-3.1">
-          <AttributeName>System.ComponentModel.DisplayName("File Name")</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.DisplayName("File Name")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DisplayName("File Name")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.Editor("System.Windows.Forms.Design.FileNameEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
-          <AttributeName>System.ComponentModel.Editor("System.Windows.Forms.Design.FileNameEditor, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.Editor("System.Windows.Forms.Design.FileNameEditor, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.Editor("System.Windows.Forms.Design.FileNameEditor, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1">
-          <AttributeName>System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0">
-          <AttributeName>System.ComponentModel.RefreshProperties</AttributeName>
+        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
+          <AttributeName Language="C#">[System.ComponentModel.Editor("System.Windows.Forms.Design.FileNameEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.Editor("System.Windows.Forms.Design.FileNameEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -428,6 +435,7 @@ Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Sample.mdb;User ID="Admin;NewVal
         <AssemblyName>System.Data.OleDb</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -479,6 +487,7 @@ Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Sample.mdb;User ID="Admin;NewVal
         <AssemblyName>System.Data.OleDb</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ICollection</ReturnType>
@@ -526,19 +535,20 @@ Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Sample.mdb;User ID="Admin;NewVal
         <AssemblyName>System.Data.OleDb</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8;dotnet-plat-ext-3.0;netcore-3.0;dotnet-plat-ext-3.1">
-          <AttributeName>System.ComponentModel.DisplayName("OLE DB Services")</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.DisplayName("OLE DB Services")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DisplayName("OLE DB Services")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.TypeConverter(typeof(System.Data.OleDb.OleDbConnectionStringBuilder/OleDbServicesConverter))</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1">
-          <AttributeName>System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0">
-          <AttributeName>System.ComponentModel.RefreshProperties</AttributeName>
+        <Attribute FrameworkAlternate="dotnet-plat-ext-5.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
+          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Data.OleDb.OleDbConnectionStringBuilder/OleDbServicesConverter))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Data.OleDb.OleDbConnectionStringBuilder/OleDbServicesConverter))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -584,16 +594,16 @@ Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Sample.mdb;User ID="Admin;NewVal
         <AssemblyName>System.Data.OleDb</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8;dotnet-plat-ext-3.0;netcore-3.0;dotnet-plat-ext-3.1">
-          <AttributeName>System.ComponentModel.DisplayName("Persist Security Info")</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.DisplayName("Persist Security Info")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DisplayName("Persist Security Info")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1">
-          <AttributeName>System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0">
-          <AttributeName>System.ComponentModel.RefreshProperties</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -639,19 +649,20 @@ Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Sample.mdb;User ID="Admin;NewVal
         <AssemblyName>System.Data.OleDb</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8;dotnet-plat-ext-3.0;netcore-3.0;dotnet-plat-ext-3.1">
-          <AttributeName>System.ComponentModel.DisplayName("Provider")</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.DisplayName("Provider")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DisplayName("Provider")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.TypeConverter(typeof(System.Data.OleDb.OleDbConnectionStringBuilder/OleDbProviderConverter))</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1">
-          <AttributeName>System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0">
-          <AttributeName>System.ComponentModel.RefreshProperties</AttributeName>
+        <Attribute FrameworkAlternate="dotnet-plat-ext-5.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
+          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Data.OleDb.OleDbConnectionStringBuilder/OleDbProviderConverter))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Data.OleDb.OleDbConnectionStringBuilder/OleDbProviderConverter))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -704,6 +715,7 @@ Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Sample.mdb;User ID="Admin;NewVal
         <AssemblyName>System.Data.OleDb</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -755,6 +767,7 @@ Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Sample.mdb;User ID="Admin;NewVal
         <AssemblyName>System.Data.OleDb</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

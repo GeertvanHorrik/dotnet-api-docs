@@ -1,6 +1,6 @@
 <Type Name="RibbonApplicationMenu" FullName="System.Windows.Controls.Ribbon.RibbonApplicationMenu">
   <TypeSignature Language="C#" Value="public class RibbonApplicationMenu : System.Windows.Controls.Ribbon.RibbonMenuButton" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RibbonApplicationMenu extends System.Windows.Controls.Ribbon.RibbonMenuButton" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RibbonApplicationMenu extends System.Windows.Controls.Ribbon.RibbonMenuButton" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0;netcore-3.0;netcore-3.1" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.Ribbon.RibbonApplicationMenu" />
   <TypeSignature Language="VB.NET" Value="Public Class RibbonApplicationMenu&#xA;Inherits RibbonMenuButton" />
   <TypeSignature Language="C++ CLI" Value="public ref class RibbonApplicationMenu : System::Windows::Controls::Ribbon::RibbonMenuButton" />
@@ -9,6 +9,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Windows.Controls.Ribbon.RibbonMenuButton</BaseTypeName>
@@ -16,22 +17,28 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Windows.StyleTypedProperty(Property="ItemContainerStyle", StyleTargetType=typeof(System.Windows.Controls.Ribbon.RibbonApplicationMenuItem))</AttributeName>
+      <AttributeName Language="C#">[System.Windows.StyleTypedProperty(Property="ItemContainerStyle", StyleTargetType=typeof(System.Windows.Controls.Ribbon.RibbonApplicationMenuItem))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.StyleTypedProperty(Property="ItemContainerStyle", StyleTargetType=typeof(System.Windows.Controls.Ribbon.RibbonApplicationMenuItem))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Windows.TemplatePart(Name="PART_PopupToggleButton", Type=typeof(System.Windows.Controls.Ribbon.RibbonToggleButton))</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_AuxiliaryPaneContentPresenter", Type=typeof(System.Windows.Controls.ContentPresenter))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_AuxiliaryPaneContentPresenter", Type=typeof(System.Windows.Controls.ContentPresenter))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Windows.TemplatePart(Name="PART_Popup", Type=typeof(System.Windows.Controls.Primitives.Popup))</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_FooterPaneContentPresenter", Type=typeof(System.Windows.Controls.ContentPresenter))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_FooterPaneContentPresenter", Type=typeof(System.Windows.Controls.ContentPresenter))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Windows.TemplatePart(Name="PART_SubmenuPlaceholder", Type=typeof(System.Windows.FrameworkElement))</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_Popup", Type=typeof(System.Windows.Controls.Primitives.Popup))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_Popup", Type=typeof(System.Windows.Controls.Primitives.Popup))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Windows.TemplatePart(Name="PART_FooterPaneContentPresenter", Type=typeof(System.Windows.Controls.ContentPresenter))</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_PopupToggleButton", Type=typeof(System.Windows.Controls.Ribbon.RibbonToggleButton))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_PopupToggleButton", Type=typeof(System.Windows.Controls.Ribbon.RibbonToggleButton))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Windows.TemplatePart(Name="PART_AuxiliaryPaneContentPresenter", Type=typeof(System.Windows.Controls.ContentPresenter))</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_SubmenuPlaceholder", Type=typeof(System.Windows.FrameworkElement))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_SubmenuPlaceholder", Type=typeof(System.Windows.FrameworkElement))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -87,6 +94,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -105,6 +113,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -152,6 +161,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.DependencyProperty</ReturnType>
@@ -172,6 +182,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.DataTemplate</ReturnType>
@@ -207,6 +218,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.DependencyProperty</ReturnType>
@@ -227,6 +239,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Controls.DataTemplateSelector</ReturnType>
@@ -263,6 +276,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.DependencyProperty</ReturnType>
@@ -283,6 +297,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -330,6 +345,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.DependencyProperty</ReturnType>
@@ -350,6 +366,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.DataTemplate</ReturnType>
@@ -385,6 +402,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.DependencyProperty</ReturnType>
@@ -405,6 +423,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Controls.DataTemplateSelector</ReturnType>
@@ -441,6 +460,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.DependencyProperty</ReturnType>
@@ -461,6 +481,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.DependencyObject</ReturnType>
@@ -483,6 +504,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -509,6 +531,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -533,6 +556,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -561,6 +585,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Automation.Peers.AutomationPeer</ReturnType>
@@ -583,6 +608,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -607,6 +633,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

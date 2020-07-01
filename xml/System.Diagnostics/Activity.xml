@@ -1,10 +1,15 @@
 <Type Name="Activity" FullName="System.Diagnostics.Activity">
-  <TypeSignature Language="C#" Value="public class Activity" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Activity extends System.Object" />
+  <TypeSignature Language="C#" Value="public class Activity : IDisposable" FrameworkAlternate="net-5.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Activity extends System.Object implements class System.IDisposable" FrameworkAlternate="net-5.0" />
   <TypeSignature Language="DocId" Value="T:System.Diagnostics.Activity" />
-  <TypeSignature Language="VB.NET" Value="Public Class Activity" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Activity" />
-  <TypeSignature Language="F#" Value="type Activity = class" />
+  <TypeSignature Language="VB.NET" Value="Public Class Activity&#xA;Implements IDisposable" FrameworkAlternate="net-5.0" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Activity : IDisposable" FrameworkAlternate="net-5.0" />
+  <TypeSignature Language="F#" Value="type Activity = class&#xA;    interface IDisposable" FrameworkAlternate="net-5.0" />
+  <TypeSignature Language="C#" Value="public class Activity" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Activity extends System.Object" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="VB.NET" Value="Public Class Activity" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Activity" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="F#" Value="type Activity = class" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
   <AssemblyInfo>
     <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
     <AssemblyVersion>4.0.2.0</AssemblyVersion>
@@ -12,11 +17,16 @@
     <AssemblyVersion>4.0.3.0</AssemblyVersion>
     <AssemblyVersion>4.0.4.0</AssemblyVersion>
     <AssemblyVersion>4.0.5.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
-  <Interfaces />
+  <Interfaces>
+    <Interface FrameworkAlternate="net-5.0">
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
   <Docs>
     <summary>Represents an operation with context to be used for logging.</summary>
     <remarks>
@@ -53,6 +63,7 @@ No `Activity` methods allow exceptions to escape as a response to bad inputs. Th
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="operationName" Type="System.String" />
@@ -83,6 +94,7 @@ Note that <xref:System.Diagnostics.Activity> has a "builder" pattern: you call t
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.ActivityTraceFlags</ReturnType>
@@ -108,6 +120,7 @@ Note that <xref:System.Diagnostics.Activity> has a "builder" pattern: you call t
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.Activity</ReturnType>
@@ -135,6 +148,31 @@ This key/value pair is included in the collection returned by the <xref:System.D
         </remarks>
       </Docs>
     </Member>
+    <Member MemberName="AddEvent">
+      <MemberSignature Language="C#" Value="public System.Diagnostics.Activity AddEvent (System.Diagnostics.ActivityEvent e);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Diagnostics.Activity AddEvent(valuetype System.Diagnostics.ActivityEvent e) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Activity.AddEvent(System.Diagnostics.ActivityEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddEvent (e As ActivityEvent) As Activity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Diagnostics::Activity ^ AddEvent(System::Diagnostics::ActivityEvent e);" />
+      <MemberSignature Language="F#" Value="member this.AddEvent : System.Diagnostics.ActivityEvent -&gt; System.Diagnostics.Activity" Usage="activity.AddEvent e" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Diagnostics.Activity</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="System.Diagnostics.ActivityEvent" Index="0" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="AddTag">
       <MemberSignature Language="C#" Value="public System.Diagnostics.Activity AddTag (string key, string value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Diagnostics.Activity AddTag(string key, string value) cil managed" />
@@ -150,6 +188,7 @@ This key/value pair is included in the collection returned by the <xref:System.D
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.Activity</ReturnType>
@@ -192,6 +231,7 @@ This key/value pair is included in the collection returned by the <xref:System.D
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -210,17 +250,38 @@ This key/value pair is included in the collection returned by the <xref:System.D
         </remarks>
       </Docs>
     </Member>
+    <Member MemberName="Context">
+      <MemberSignature Language="C#" Value="public System.Diagnostics.ActivityContext Context { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Diagnostics.ActivityContext Context" />
+      <MemberSignature Language="DocId" Value="P:System.Diagnostics.Activity.Context" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Context As ActivityContext" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Diagnostics::ActivityContext Context { System::Diagnostics::ActivityContext get(); };" />
+      <MemberSignature Language="F#" Value="member this.Context : System.Diagnostics.ActivityContext" Usage="System.Diagnostics.Activity.Context" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Diagnostics.ActivityContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Current">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Activity Current { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.Activity Current { get; set; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".property class System.Diagnostics.Activity Current" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.Activity.Current" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Property Current As Activity" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Diagnostics::Activity ^ Current { System::Diagnostics::Activity ^ get(); void set(System::Diagnostics::Activity ^ value); };" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="F#" Value="member this.Current : System.Diagnostics.Activity with get, set" Usage="System.Diagnostics.Activity.Current" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.Activity Current { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Current As Activity" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Diagnostics::Activity ^ Current { System::Diagnostics::Activity ^ get(); };" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2" />
       <MemberSignature Language="F#" Value="member this.Current : System.Diagnostics.Activity" Usage="System.Diagnostics.Activity.Current" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2" />
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Activity Current { get; set; }" FrameworkAlternate="netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Property Current As Activity" FrameworkAlternate="netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Diagnostics::Activity ^ Current { System::Diagnostics::Activity ^ get(); void set(System::Diagnostics::Activity ^ value); };" FrameworkAlternate="netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="F#" Value="member this.Current : System.Diagnostics.Activity with get, set" Usage="System.Diagnostics.Activity.Current" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
@@ -229,6 +290,7 @@ This key/value pair is included in the collection returned by the <xref:System.D
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.Activity</ReturnType>
@@ -251,6 +313,7 @@ This key/value pair is included in the collection returned by the <xref:System.D
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.ActivityIdFormat</ReturnType>
@@ -265,6 +328,75 @@ The `Activity` instance tries to use the same format for IDs as its parent. If t
 
          ]]></format>
         </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:System.Diagnostics.Activity.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="F#" Value="member this.DisplayName : string with get, set" Usage="System.Diagnostics.Activity.DisplayName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="public void Dispose ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Activity.Dispose" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="activity.Dispose " />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dispose">
+      <MemberSignature Language="C#" Value="protected virtual void Dispose (bool disposing);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool disposing) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Activity.Dispose(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (disposing As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void Dispose(bool disposing);" />
+      <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="activity.Dispose disposing" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="disposing" Type="System.Boolean" Index="0" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="disposing">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Duration">
@@ -282,6 +414,7 @@ The `Activity` instance tries to use the same format for IDs as its parent. If t
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -289,6 +422,27 @@ The `Activity` instance tries to use the same format for IDs as its parent. If t
       <Docs>
         <summary>Gets the duration of the operation.</summary>
         <value>The delta between <see cref="P:System.Diagnostics.Activity.StartTimeUtc" /> and the end time if the <see cref="T:System.Diagnostics.Activity" /> has ended (<see cref="M:System.Diagnostics.Activity.Stop" /> or <see cref="M:System.Diagnostics.Activity.SetEndTime(System.DateTime)" /> was called), or <see cref="F:System.TimeSpan.Zero" /> if the <see cref="T:System.Diagnostics.Activity" /> has not ended and <see cref="M:System.Diagnostics.Activity.SetEndTime(System.DateTime)" /> was not called.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Events">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Diagnostics.ActivityEvent&gt; Events { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Diagnostics.ActivityEvent&gt; Events" />
+      <MemberSignature Language="DocId" Value="P:System.Diagnostics.Activity.Events" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Events As IEnumerable(Of ActivityEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;System::Diagnostics::ActivityEvent&gt; ^ Events { System::Collections::Generic::IEnumerable&lt;System::Diagnostics::ActivityEvent&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Events : seq&lt;System.Diagnostics.ActivityEvent&gt;" Usage="System.Diagnostics.Activity.Events" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Diagnostics.ActivityEvent&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -304,6 +458,7 @@ The `Activity` instance tries to use the same format for IDs as its parent. If t
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -336,6 +491,7 @@ Normally if the <xref:System.Diagnostics.Activity.ParentId> is defined, its form
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -347,6 +503,31 @@ Normally if the <xref:System.Diagnostics.Activity.ParentId> is defined, its form
         <param name="key">The baggage key.</param>
         <summary>Returns the value of a key-value pair added to the activity with <see cref="M:System.Diagnostics.Activity.AddBaggage(System.String,System.String)" />.</summary>
         <returns>The value of the key-value-pair item if it exists, or <see langword="null" /> if it does not exist.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCustomProperty">
+      <MemberSignature Language="C#" Value="public object GetCustomProperty (string propertyName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object GetCustomProperty(string propertyName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Activity.GetCustomProperty(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCustomProperty (propertyName As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetCustomProperty(System::String ^ propertyName);" />
+      <MemberSignature Language="F#" Value="member this.GetCustomProperty : string -&gt; obj" Usage="activity.GetCustomProperty propertyName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -365,6 +546,7 @@ Normally if the <xref:System.Diagnostics.Activity.ParentId> is defined, its form
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -395,6 +577,7 @@ An ID has a hierarchical structure: `root-id.id1_id2.id3_`. The ID is generated 
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.ActivityIdFormat</ReturnType>
@@ -402,6 +585,69 @@ An ID has a hierarchical structure: `root-id.id1_id2.id3_`. The ID is generated 
       <Docs>
         <summary>Gets the format for the <see cref="P:System.Diagnostics.Activity.Id" />.</summary>
         <value>The format for the <see cref="P:System.Diagnostics.Activity.Id" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAllDataRequested">
+      <MemberSignature Language="C#" Value="public bool IsAllDataRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAllDataRequested" />
+      <MemberSignature Language="DocId" Value="P:System.Diagnostics.Activity.IsAllDataRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAllDataRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAllDataRequested { bool get(); void set(bool value); };" />
+      <MemberSignature Language="F#" Value="member this.IsAllDataRequested : bool with get, set" Usage="System.Diagnostics.Activity.IsAllDataRequested" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Kind">
+      <MemberSignature Language="C#" Value="public System.Diagnostics.ActivityKind Kind { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Diagnostics.ActivityKind Kind" />
+      <MemberSignature Language="DocId" Value="P:System.Diagnostics.Activity.Kind" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Kind As ActivityKind" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Diagnostics::ActivityKind Kind { System::Diagnostics::ActivityKind get(); };" />
+      <MemberSignature Language="F#" Value="member this.Kind : System.Diagnostics.ActivityKind" Usage="System.Diagnostics.Activity.Kind" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Diagnostics.ActivityKind</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Links">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Diagnostics.ActivityLink&gt; Links { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Diagnostics.ActivityLink&gt; Links" />
+      <MemberSignature Language="DocId" Value="P:System.Diagnostics.Activity.Links" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Links As IEnumerable(Of ActivityLink)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;System::Diagnostics::ActivityLink&gt; ^ Links { System::Collections::Generic::IEnumerable&lt;System::Diagnostics::ActivityLink&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Links : seq&lt;System.Diagnostics.ActivityLink&gt;" Usage="System.Diagnostics.Activity.Links" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Diagnostics.ActivityLink&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -420,6 +666,7 @@ An ID has a hierarchical structure: `root-id.id1_id2.id3_`. The ID is generated 
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -453,6 +700,7 @@ An operation name is the *coarsest* name that is useful for grouping/filtering. 
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.Activity</ReturnType>
@@ -478,6 +726,7 @@ An operation name is the *coarsest* name that is useful for grouping/filtering. 
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -510,6 +759,7 @@ This property value can be `null` if this is a root <xref:System.Diagnostics.Act
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.ActivitySpanId</ReturnType>
@@ -538,6 +788,7 @@ If the <xref:System.Diagnostics.Activity.ParentId?displayProperty=nameWithType> 
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -564,6 +815,7 @@ If the <xref:System.Diagnostics.Activity.ParentId?displayProperty=nameWithType> 
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -582,6 +834,32 @@ The root ID is a substring from the <xref:System.Diagnostics.Activity.Id> or the
         </remarks>
       </Docs>
     </Member>
+    <Member MemberName="SetCustomProperty">
+      <MemberSignature Language="C#" Value="public void SetCustomProperty (string propertyName, object propertyValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetCustomProperty(string propertyName, object propertyValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Activity.SetCustomProperty(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetCustomProperty (propertyName As String, propertyValue As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetCustomProperty(System::String ^ propertyName, System::Object ^ propertyValue);" />
+      <MemberSignature Language="F#" Value="member this.SetCustomProperty : string * obj -&gt; unit" Usage="activity.SetCustomProperty (propertyName, propertyValue)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyName" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="propertyValue" Type="System.Object" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="propertyName">To be added.</param>
+        <param name="propertyValue">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="SetEndTime">
       <MemberSignature Language="C#" Value="public System.Diagnostics.Activity SetEndTime (DateTime endTimeUtc);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Diagnostics.Activity SetEndTime(valuetype System.DateTime endTimeUtc) cil managed" />
@@ -597,6 +875,7 @@ The root ID is a substring from the <xref:System.Diagnostics.Activity.Id> or the
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.Activity</ReturnType>
@@ -624,12 +903,13 @@ The root ID is a substring from the <xref:System.Diagnostics.Activity.Id> or the
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.Activity</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="format" Type="System.Diagnostics.ActivityIdFormat" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+        <Parameter Name="format" Type="System.Diagnostics.ActivityIdFormat" Index="0" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="format">One of the enumeration values that specifies the format of the <see cref="P:System.Diagnostics.Activity.Id" /> property.</param>
@@ -662,6 +942,7 @@ The specified format will take precedence over `Parent.IdFormat`, the <xref:Syst
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.Activity</ReturnType>
@@ -696,14 +977,15 @@ This property should only be used in 'boundary' scenarios where an <xref:System.
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.Activity</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="traceId" Type="System.Diagnostics.ActivityTraceId" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1" />
-        <Parameter Name="spanId" Type="System.Diagnostics.ActivitySpanId" Index="1" FrameworkAlternate="netcore-3.0;netcore-3.1" />
-        <Parameter Name="activityTraceFlags" Type="System.Diagnostics.ActivityTraceFlags" Index="2" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+        <Parameter Name="traceId" Type="System.Diagnostics.ActivityTraceId" Index="0" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="spanId" Type="System.Diagnostics.ActivitySpanId" Index="1" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+        <Parameter Name="activityTraceFlags" Type="System.Diagnostics.ActivityTraceFlags" Index="2" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       </Parameters>
       <Docs>
         <param name="traceId">The parent activity's TraceId.</param>
@@ -738,6 +1020,7 @@ This method has the advantage that no string manipulation is needed to set the I
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.Activity</ReturnType>
@@ -753,6 +1036,27 @@ This method has the advantage that no string manipulation is needed to set the I
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Source">
+      <MemberSignature Language="C#" Value="public System.Diagnostics.ActivitySource Source { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Diagnostics.ActivitySource Source" />
+      <MemberSignature Language="DocId" Value="P:System.Diagnostics.Activity.Source" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Source As ActivitySource" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Diagnostics::ActivitySource ^ Source { System::Diagnostics::ActivitySource ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Source : System.Diagnostics.ActivitySource" Usage="System.Diagnostics.Activity.Source" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Diagnostics.ActivitySource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="SpanId">
       <MemberSignature Language="C#" Value="public System.Diagnostics.ActivitySpanId SpanId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Diagnostics.ActivitySpanId SpanId" />
@@ -765,6 +1069,7 @@ This method has the advantage that no string manipulation is needed to set the I
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.ActivitySpanId</ReturnType>
@@ -790,6 +1095,7 @@ This method has the advantage that no string manipulation is needed to set the I
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.Activity</ReturnType>
@@ -831,6 +1137,7 @@ Use <xref:System.Diagnostics.DiagnosticSource.StartActivity%2A?displayProperty=n
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -864,6 +1171,7 @@ The `StartTimeUtc` property is typically initialized when <xref:System.Diagnosti
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -903,6 +1211,7 @@ Call <xref:System.Diagnostics.DiagnosticSource.StopActivity%2A?displayProperty=n
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -925,6 +1234,7 @@ Call <xref:System.Diagnostics.DiagnosticSource.StopActivity%2A?displayProperty=n
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.ActivityTraceId</ReturnType>
@@ -947,6 +1257,7 @@ Call <xref:System.Diagnostics.DiagnosticSource.StopActivity%2A?displayProperty=n
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

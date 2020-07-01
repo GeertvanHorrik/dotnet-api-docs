@@ -13,6 +13,7 @@
     <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Runtime.Intrinsics.X86.Sse42</BaseTypeName>
@@ -20,7 +21,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.CLSCompliant(false)</AttributeName>
+      <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -44,6 +46,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -79,6 +82,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -114,6 +118,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -149,6 +154,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -184,6 +190,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -219,6 +226,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -254,6 +262,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -289,6 +298,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -324,6 +334,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -361,6 +372,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -398,6 +410,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -435,6 +448,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -471,6 +485,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
@@ -503,6 +518,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -535,6 +551,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -567,6 +584,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -599,6 +617,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -632,6 +651,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -665,6 +685,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -698,6 +719,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Double&gt;</ReturnType>
@@ -735,6 +757,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
@@ -772,6 +795,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -809,6 +833,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -830,6 +855,600 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="CompareEqual">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;double&gt; CompareEqual (System.Runtime.Intrinsics.Vector256&lt;double&gt; left, System.Runtime.Intrinsics.Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; CompareEqual(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareEqual(System.Runtime.Intrinsics.Vector256{System.Double},System.Runtime.Intrinsics.Vector256{System.Double})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareEqual (left As Vector256(Of Double), right As Vector256(Of Double)) As Vector256(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;double&gt; CompareEqual(System::Runtime::Intrinsics::Vector256&lt;double&gt; left, System::Runtime::Intrinsics::Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareEqual : System.Runtime.Intrinsics.Vector256&lt;double&gt; * System.Runtime.Intrinsics.Vector256&lt;double&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;double&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareEqual (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareEqual">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;float&gt; CompareEqual (System.Runtime.Intrinsics.Vector256&lt;float&gt; left, System.Runtime.Intrinsics.Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; CompareEqual(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareEqual(System.Runtime.Intrinsics.Vector256{System.Single},System.Runtime.Intrinsics.Vector256{System.Single})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareEqual (left As Vector256(Of Single), right As Vector256(Of Single)) As Vector256(Of Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;float&gt; CompareEqual(System::Runtime::Intrinsics::Vector256&lt;float&gt; left, System::Runtime::Intrinsics::Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareEqual : System.Runtime.Intrinsics.Vector256&lt;single&gt; * System.Runtime.Intrinsics.Vector256&lt;single&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareEqual (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareGreaterThan">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;double&gt; CompareGreaterThan (System.Runtime.Intrinsics.Vector256&lt;double&gt; left, System.Runtime.Intrinsics.Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; CompareGreaterThan(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareGreaterThan(System.Runtime.Intrinsics.Vector256{System.Double},System.Runtime.Intrinsics.Vector256{System.Double})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareGreaterThan (left As Vector256(Of Double), right As Vector256(Of Double)) As Vector256(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;double&gt; CompareGreaterThan(System::Runtime::Intrinsics::Vector256&lt;double&gt; left, System::Runtime::Intrinsics::Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareGreaterThan : System.Runtime.Intrinsics.Vector256&lt;double&gt; * System.Runtime.Intrinsics.Vector256&lt;double&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;double&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareGreaterThan (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareGreaterThan">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;float&gt; CompareGreaterThan (System.Runtime.Intrinsics.Vector256&lt;float&gt; left, System.Runtime.Intrinsics.Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; CompareGreaterThan(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareGreaterThan(System.Runtime.Intrinsics.Vector256{System.Single},System.Runtime.Intrinsics.Vector256{System.Single})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareGreaterThan (left As Vector256(Of Single), right As Vector256(Of Single)) As Vector256(Of Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;float&gt; CompareGreaterThan(System::Runtime::Intrinsics::Vector256&lt;float&gt; left, System::Runtime::Intrinsics::Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareGreaterThan : System.Runtime.Intrinsics.Vector256&lt;single&gt; * System.Runtime.Intrinsics.Vector256&lt;single&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareGreaterThan (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareGreaterThanOrEqual">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;double&gt; CompareGreaterThanOrEqual (System.Runtime.Intrinsics.Vector256&lt;double&gt; left, System.Runtime.Intrinsics.Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; CompareGreaterThanOrEqual(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareGreaterThanOrEqual(System.Runtime.Intrinsics.Vector256{System.Double},System.Runtime.Intrinsics.Vector256{System.Double})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareGreaterThanOrEqual (left As Vector256(Of Double), right As Vector256(Of Double)) As Vector256(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;double&gt; CompareGreaterThanOrEqual(System::Runtime::Intrinsics::Vector256&lt;double&gt; left, System::Runtime::Intrinsics::Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareGreaterThanOrEqual : System.Runtime.Intrinsics.Vector256&lt;double&gt; * System.Runtime.Intrinsics.Vector256&lt;double&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;double&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareGreaterThanOrEqual (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareGreaterThanOrEqual">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;float&gt; CompareGreaterThanOrEqual (System.Runtime.Intrinsics.Vector256&lt;float&gt; left, System.Runtime.Intrinsics.Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; CompareGreaterThanOrEqual(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareGreaterThanOrEqual(System.Runtime.Intrinsics.Vector256{System.Single},System.Runtime.Intrinsics.Vector256{System.Single})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareGreaterThanOrEqual (left As Vector256(Of Single), right As Vector256(Of Single)) As Vector256(Of Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;float&gt; CompareGreaterThanOrEqual(System::Runtime::Intrinsics::Vector256&lt;float&gt; left, System::Runtime::Intrinsics::Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareGreaterThanOrEqual : System.Runtime.Intrinsics.Vector256&lt;single&gt; * System.Runtime.Intrinsics.Vector256&lt;single&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareGreaterThanOrEqual (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareLessThan">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;double&gt; CompareLessThan (System.Runtime.Intrinsics.Vector256&lt;double&gt; left, System.Runtime.Intrinsics.Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; CompareLessThan(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareLessThan(System.Runtime.Intrinsics.Vector256{System.Double},System.Runtime.Intrinsics.Vector256{System.Double})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareLessThan (left As Vector256(Of Double), right As Vector256(Of Double)) As Vector256(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;double&gt; CompareLessThan(System::Runtime::Intrinsics::Vector256&lt;double&gt; left, System::Runtime::Intrinsics::Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareLessThan : System.Runtime.Intrinsics.Vector256&lt;double&gt; * System.Runtime.Intrinsics.Vector256&lt;double&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;double&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareLessThan (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareLessThan">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;float&gt; CompareLessThan (System.Runtime.Intrinsics.Vector256&lt;float&gt; left, System.Runtime.Intrinsics.Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; CompareLessThan(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareLessThan(System.Runtime.Intrinsics.Vector256{System.Single},System.Runtime.Intrinsics.Vector256{System.Single})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareLessThan (left As Vector256(Of Single), right As Vector256(Of Single)) As Vector256(Of Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;float&gt; CompareLessThan(System::Runtime::Intrinsics::Vector256&lt;float&gt; left, System::Runtime::Intrinsics::Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareLessThan : System.Runtime.Intrinsics.Vector256&lt;single&gt; * System.Runtime.Intrinsics.Vector256&lt;single&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareLessThan (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareLessThanOrEqual">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;double&gt; CompareLessThanOrEqual (System.Runtime.Intrinsics.Vector256&lt;double&gt; left, System.Runtime.Intrinsics.Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; CompareLessThanOrEqual(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareLessThanOrEqual(System.Runtime.Intrinsics.Vector256{System.Double},System.Runtime.Intrinsics.Vector256{System.Double})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareLessThanOrEqual (left As Vector256(Of Double), right As Vector256(Of Double)) As Vector256(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;double&gt; CompareLessThanOrEqual(System::Runtime::Intrinsics::Vector256&lt;double&gt; left, System::Runtime::Intrinsics::Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareLessThanOrEqual : System.Runtime.Intrinsics.Vector256&lt;double&gt; * System.Runtime.Intrinsics.Vector256&lt;double&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;double&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareLessThanOrEqual (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareLessThanOrEqual">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;float&gt; CompareLessThanOrEqual (System.Runtime.Intrinsics.Vector256&lt;float&gt; left, System.Runtime.Intrinsics.Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; CompareLessThanOrEqual(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareLessThanOrEqual(System.Runtime.Intrinsics.Vector256{System.Single},System.Runtime.Intrinsics.Vector256{System.Single})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareLessThanOrEqual (left As Vector256(Of Single), right As Vector256(Of Single)) As Vector256(Of Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;float&gt; CompareLessThanOrEqual(System::Runtime::Intrinsics::Vector256&lt;float&gt; left, System::Runtime::Intrinsics::Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareLessThanOrEqual : System.Runtime.Intrinsics.Vector256&lt;single&gt; * System.Runtime.Intrinsics.Vector256&lt;single&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareLessThanOrEqual (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareNotEqual">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;double&gt; CompareNotEqual (System.Runtime.Intrinsics.Vector256&lt;double&gt; left, System.Runtime.Intrinsics.Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; CompareNotEqual(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareNotEqual(System.Runtime.Intrinsics.Vector256{System.Double},System.Runtime.Intrinsics.Vector256{System.Double})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareNotEqual (left As Vector256(Of Double), right As Vector256(Of Double)) As Vector256(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;double&gt; CompareNotEqual(System::Runtime::Intrinsics::Vector256&lt;double&gt; left, System::Runtime::Intrinsics::Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareNotEqual : System.Runtime.Intrinsics.Vector256&lt;double&gt; * System.Runtime.Intrinsics.Vector256&lt;double&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;double&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareNotEqual (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareNotEqual">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;float&gt; CompareNotEqual (System.Runtime.Intrinsics.Vector256&lt;float&gt; left, System.Runtime.Intrinsics.Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; CompareNotEqual(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareNotEqual(System.Runtime.Intrinsics.Vector256{System.Single},System.Runtime.Intrinsics.Vector256{System.Single})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareNotEqual (left As Vector256(Of Single), right As Vector256(Of Single)) As Vector256(Of Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;float&gt; CompareNotEqual(System::Runtime::Intrinsics::Vector256&lt;float&gt; left, System::Runtime::Intrinsics::Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareNotEqual : System.Runtime.Intrinsics.Vector256&lt;single&gt; * System.Runtime.Intrinsics.Vector256&lt;single&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareNotEqual (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareNotGreaterThan">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;double&gt; CompareNotGreaterThan (System.Runtime.Intrinsics.Vector256&lt;double&gt; left, System.Runtime.Intrinsics.Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; CompareNotGreaterThan(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareNotGreaterThan(System.Runtime.Intrinsics.Vector256{System.Double},System.Runtime.Intrinsics.Vector256{System.Double})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareNotGreaterThan (left As Vector256(Of Double), right As Vector256(Of Double)) As Vector256(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;double&gt; CompareNotGreaterThan(System::Runtime::Intrinsics::Vector256&lt;double&gt; left, System::Runtime::Intrinsics::Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareNotGreaterThan : System.Runtime.Intrinsics.Vector256&lt;double&gt; * System.Runtime.Intrinsics.Vector256&lt;double&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;double&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareNotGreaterThan (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareNotGreaterThan">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;float&gt; CompareNotGreaterThan (System.Runtime.Intrinsics.Vector256&lt;float&gt; left, System.Runtime.Intrinsics.Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; CompareNotGreaterThan(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareNotGreaterThan(System.Runtime.Intrinsics.Vector256{System.Single},System.Runtime.Intrinsics.Vector256{System.Single})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareNotGreaterThan (left As Vector256(Of Single), right As Vector256(Of Single)) As Vector256(Of Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;float&gt; CompareNotGreaterThan(System::Runtime::Intrinsics::Vector256&lt;float&gt; left, System::Runtime::Intrinsics::Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareNotGreaterThan : System.Runtime.Intrinsics.Vector256&lt;single&gt; * System.Runtime.Intrinsics.Vector256&lt;single&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareNotGreaterThan (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareNotGreaterThanOrEqual">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;double&gt; CompareNotGreaterThanOrEqual (System.Runtime.Intrinsics.Vector256&lt;double&gt; left, System.Runtime.Intrinsics.Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; CompareNotGreaterThanOrEqual(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareNotGreaterThanOrEqual(System.Runtime.Intrinsics.Vector256{System.Double},System.Runtime.Intrinsics.Vector256{System.Double})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareNotGreaterThanOrEqual (left As Vector256(Of Double), right As Vector256(Of Double)) As Vector256(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;double&gt; CompareNotGreaterThanOrEqual(System::Runtime::Intrinsics::Vector256&lt;double&gt; left, System::Runtime::Intrinsics::Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareNotGreaterThanOrEqual : System.Runtime.Intrinsics.Vector256&lt;double&gt; * System.Runtime.Intrinsics.Vector256&lt;double&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;double&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareNotGreaterThanOrEqual (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareNotGreaterThanOrEqual">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;float&gt; CompareNotGreaterThanOrEqual (System.Runtime.Intrinsics.Vector256&lt;float&gt; left, System.Runtime.Intrinsics.Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; CompareNotGreaterThanOrEqual(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareNotGreaterThanOrEqual(System.Runtime.Intrinsics.Vector256{System.Single},System.Runtime.Intrinsics.Vector256{System.Single})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareNotGreaterThanOrEqual (left As Vector256(Of Single), right As Vector256(Of Single)) As Vector256(Of Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;float&gt; CompareNotGreaterThanOrEqual(System::Runtime::Intrinsics::Vector256&lt;float&gt; left, System::Runtime::Intrinsics::Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareNotGreaterThanOrEqual : System.Runtime.Intrinsics.Vector256&lt;single&gt; * System.Runtime.Intrinsics.Vector256&lt;single&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareNotGreaterThanOrEqual (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareNotLessThan">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;double&gt; CompareNotLessThan (System.Runtime.Intrinsics.Vector256&lt;double&gt; left, System.Runtime.Intrinsics.Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; CompareNotLessThan(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareNotLessThan(System.Runtime.Intrinsics.Vector256{System.Double},System.Runtime.Intrinsics.Vector256{System.Double})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareNotLessThan (left As Vector256(Of Double), right As Vector256(Of Double)) As Vector256(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;double&gt; CompareNotLessThan(System::Runtime::Intrinsics::Vector256&lt;double&gt; left, System::Runtime::Intrinsics::Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareNotLessThan : System.Runtime.Intrinsics.Vector256&lt;double&gt; * System.Runtime.Intrinsics.Vector256&lt;double&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;double&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareNotLessThan (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareNotLessThan">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;float&gt; CompareNotLessThan (System.Runtime.Intrinsics.Vector256&lt;float&gt; left, System.Runtime.Intrinsics.Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; CompareNotLessThan(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareNotLessThan(System.Runtime.Intrinsics.Vector256{System.Single},System.Runtime.Intrinsics.Vector256{System.Single})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareNotLessThan (left As Vector256(Of Single), right As Vector256(Of Single)) As Vector256(Of Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;float&gt; CompareNotLessThan(System::Runtime::Intrinsics::Vector256&lt;float&gt; left, System::Runtime::Intrinsics::Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareNotLessThan : System.Runtime.Intrinsics.Vector256&lt;single&gt; * System.Runtime.Intrinsics.Vector256&lt;single&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareNotLessThan (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareNotLessThanOrEqual">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;double&gt; CompareNotLessThanOrEqual (System.Runtime.Intrinsics.Vector256&lt;double&gt; left, System.Runtime.Intrinsics.Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; CompareNotLessThanOrEqual(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareNotLessThanOrEqual(System.Runtime.Intrinsics.Vector256{System.Double},System.Runtime.Intrinsics.Vector256{System.Double})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareNotLessThanOrEqual (left As Vector256(Of Double), right As Vector256(Of Double)) As Vector256(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;double&gt; CompareNotLessThanOrEqual(System::Runtime::Intrinsics::Vector256&lt;double&gt; left, System::Runtime::Intrinsics::Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareNotLessThanOrEqual : System.Runtime.Intrinsics.Vector256&lt;double&gt; * System.Runtime.Intrinsics.Vector256&lt;double&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;double&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareNotLessThanOrEqual (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareNotLessThanOrEqual">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;float&gt; CompareNotLessThanOrEqual (System.Runtime.Intrinsics.Vector256&lt;float&gt; left, System.Runtime.Intrinsics.Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; CompareNotLessThanOrEqual(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareNotLessThanOrEqual(System.Runtime.Intrinsics.Vector256{System.Single},System.Runtime.Intrinsics.Vector256{System.Single})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareNotLessThanOrEqual (left As Vector256(Of Single), right As Vector256(Of Single)) As Vector256(Of Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;float&gt; CompareNotLessThanOrEqual(System::Runtime::Intrinsics::Vector256&lt;float&gt; left, System::Runtime::Intrinsics::Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareNotLessThanOrEqual : System.Runtime.Intrinsics.Vector256&lt;single&gt; * System.Runtime.Intrinsics.Vector256&lt;single&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareNotLessThanOrEqual (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareOrdered">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;double&gt; CompareOrdered (System.Runtime.Intrinsics.Vector256&lt;double&gt; left, System.Runtime.Intrinsics.Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; CompareOrdered(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareOrdered(System.Runtime.Intrinsics.Vector256{System.Double},System.Runtime.Intrinsics.Vector256{System.Double})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareOrdered (left As Vector256(Of Double), right As Vector256(Of Double)) As Vector256(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;double&gt; CompareOrdered(System::Runtime::Intrinsics::Vector256&lt;double&gt; left, System::Runtime::Intrinsics::Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareOrdered : System.Runtime.Intrinsics.Vector256&lt;double&gt; * System.Runtime.Intrinsics.Vector256&lt;double&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;double&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareOrdered (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareOrdered">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;float&gt; CompareOrdered (System.Runtime.Intrinsics.Vector256&lt;float&gt; left, System.Runtime.Intrinsics.Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; CompareOrdered(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareOrdered(System.Runtime.Intrinsics.Vector256{System.Single},System.Runtime.Intrinsics.Vector256{System.Single})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareOrdered (left As Vector256(Of Single), right As Vector256(Of Single)) As Vector256(Of Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;float&gt; CompareOrdered(System::Runtime::Intrinsics::Vector256&lt;float&gt; left, System::Runtime::Intrinsics::Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareOrdered : System.Runtime.Intrinsics.Vector256&lt;single&gt; * System.Runtime.Intrinsics.Vector256&lt;single&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareOrdered (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="CompareScalar">
       <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;double&gt; CompareScalar (System.Runtime.Intrinsics.Vector128&lt;double&gt; left, System.Runtime.Intrinsics.Vector128&lt;double&gt; right, System.Runtime.Intrinsics.X86.FloatComparisonMode mode);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float64&gt; CompareScalar(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float64&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float64&gt; right, valuetype System.Runtime.Intrinsics.X86.FloatComparisonMode mode) cil managed" />
@@ -846,6 +1465,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Double&gt;</ReturnType>
@@ -883,6 +1503,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
@@ -904,6 +1525,60 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="CompareUnordered">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;double&gt; CompareUnordered (System.Runtime.Intrinsics.Vector256&lt;double&gt; left, System.Runtime.Intrinsics.Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; CompareUnordered(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareUnordered(System.Runtime.Intrinsics.Vector256{System.Double},System.Runtime.Intrinsics.Vector256{System.Double})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareUnordered (left As Vector256(Of Double), right As Vector256(Of Double)) As Vector256(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;double&gt; CompareUnordered(System::Runtime::Intrinsics::Vector256&lt;double&gt; left, System::Runtime::Intrinsics::Vector256&lt;double&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareUnordered : System.Runtime.Intrinsics.Vector256&lt;double&gt; * System.Runtime.Intrinsics.Vector256&lt;double&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;double&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareUnordered (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompareUnordered">
+      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector256&lt;float&gt; CompareUnordered (System.Runtime.Intrinsics.Vector256&lt;float&gt; left, System.Runtime.Intrinsics.Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; CompareUnordered(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector256`1&lt;float32&gt; right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Avx.CompareUnordered(System.Runtime.Intrinsics.Vector256{System.Single},System.Runtime.Intrinsics.Vector256{System.Single})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CompareUnordered (left As Vector256(Of Single), right As Vector256(Of Single)) As Vector256(Of Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector256&lt;float&gt; CompareUnordered(System::Runtime::Intrinsics::Vector256&lt;float&gt; left, System::Runtime::Intrinsics::Vector256&lt;float&gt; right);" />
+      <MemberSignature Language="F#" Value="static member CompareUnordered : System.Runtime.Intrinsics.Vector256&lt;single&gt; * System.Runtime.Intrinsics.Vector256&lt;single&gt; -&gt; System.Runtime.Intrinsics.Vector256&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Avx.CompareUnordered (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="right" Type="System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;" Index="1" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ConvertToVector128Int32">
       <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;int&gt; ConvertToVector128Int32 (System.Runtime.Intrinsics.Vector256&lt;double&gt; value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;int32&gt; ConvertToVector128Int32(valuetype System.Runtime.Intrinsics.Vector256`1&lt;float64&gt; value) cil managed" />
@@ -920,6 +1595,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int32&gt;</ReturnType>
@@ -953,6 +1629,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int32&gt;</ReturnType>
@@ -986,6 +1663,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
@@ -1019,6 +1697,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -1052,6 +1731,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -1085,6 +1765,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int32&gt;</ReturnType>
@@ -1118,6 +1799,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int32&gt;</ReturnType>
@@ -1151,6 +1833,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -1184,6 +1867,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -1219,6 +1903,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -1254,6 +1939,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -1291,6 +1977,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -1324,6 +2011,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -1357,6 +2045,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -1386,6 +2075,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Byte&gt;</ReturnType>
@@ -1417,6 +2107,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Double&gt;</ReturnType>
@@ -1448,6 +2139,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int16&gt;</ReturnType>
@@ -1479,6 +2171,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int32&gt;</ReturnType>
@@ -1510,6 +2203,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int64&gt;</ReturnType>
@@ -1541,6 +2235,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.SByte&gt;</ReturnType>
@@ -1572,6 +2267,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
@@ -1603,6 +2299,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.UInt16&gt;</ReturnType>
@@ -1634,6 +2331,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.UInt32&gt;</ReturnType>
@@ -1665,6 +2363,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.UInt64&gt;</ReturnType>
@@ -1700,6 +2399,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -1733,6 +2433,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -1766,6 +2467,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -1801,6 +2503,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -1836,6 +2539,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -1871,6 +2575,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -1902,6 +2607,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Byte&gt;</ReturnType>
@@ -1935,6 +2641,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -1968,6 +2675,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int16&gt;</ReturnType>
@@ -2001,6 +2709,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int32&gt;</ReturnType>
@@ -2034,6 +2743,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int64&gt;</ReturnType>
@@ -2067,6 +2777,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.SByte&gt;</ReturnType>
@@ -2100,6 +2811,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -2133,6 +2845,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.UInt16&gt;</ReturnType>
@@ -2166,6 +2879,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.UInt32&gt;</ReturnType>
@@ -2199,6 +2913,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.UInt64&gt;</ReturnType>
@@ -2236,6 +2951,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -2261,6 +2977,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Byte&gt;</ReturnType>
@@ -2293,6 +3010,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -2325,6 +3043,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int16&gt;</ReturnType>
@@ -2357,6 +3076,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int32&gt;</ReturnType>
@@ -2389,6 +3109,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int64&gt;</ReturnType>
@@ -2421,6 +3142,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.SByte&gt;</ReturnType>
@@ -2453,6 +3175,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -2485,6 +3208,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.UInt16&gt;</ReturnType>
@@ -2517,6 +3241,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.UInt32&gt;</ReturnType>
@@ -2549,6 +3274,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.UInt64&gt;</ReturnType>
@@ -2581,6 +3307,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Byte&gt;</ReturnType>
@@ -2613,6 +3340,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int16&gt;</ReturnType>
@@ -2645,6 +3373,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int32&gt;</ReturnType>
@@ -2677,6 +3406,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int64&gt;</ReturnType>
@@ -2709,6 +3439,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.SByte&gt;</ReturnType>
@@ -2741,6 +3472,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.UInt16&gt;</ReturnType>
@@ -2773,6 +3505,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.UInt32&gt;</ReturnType>
@@ -2805,6 +3538,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.UInt64&gt;</ReturnType>
@@ -2837,6 +3571,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Byte&gt;</ReturnType>
@@ -2869,6 +3604,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -2901,6 +3637,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int16&gt;</ReturnType>
@@ -2933,6 +3670,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int32&gt;</ReturnType>
@@ -2965,6 +3703,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int64&gt;</ReturnType>
@@ -2997,6 +3736,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.SByte&gt;</ReturnType>
@@ -3029,6 +3769,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -3061,6 +3802,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.UInt16&gt;</ReturnType>
@@ -3093,6 +3835,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.UInt32&gt;</ReturnType>
@@ -3125,6 +3868,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.UInt64&gt;</ReturnType>
@@ -3153,6 +3897,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Double&gt;</ReturnType>
@@ -3183,6 +3928,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -3213,6 +3959,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
@@ -3243,6 +3990,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -3273,6 +4021,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3304,6 +4053,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3335,6 +4085,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3366,6 +4117,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3402,6 +4154,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -3437,6 +4190,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -3472,6 +4226,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -3507,6 +4262,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -3542,6 +4298,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -3575,6 +4332,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -3608,6 +4366,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -3643,6 +4402,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -3678,6 +4438,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -3713,6 +4474,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -3748,6 +4510,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Double&gt;</ReturnType>
@@ -3783,6 +4546,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
@@ -3818,6 +4582,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -3853,6 +4618,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -3884,6 +4650,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Byte&gt;</ReturnType>
@@ -3917,6 +4684,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -3950,6 +4718,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int16&gt;</ReturnType>
@@ -3983,6 +4752,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int32&gt;</ReturnType>
@@ -4016,6 +4786,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Int64&gt;</ReturnType>
@@ -4049,6 +4820,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.SByte&gt;</ReturnType>
@@ -4082,6 +4854,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -4115,6 +4888,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.UInt16&gt;</ReturnType>
@@ -4148,6 +4922,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.UInt32&gt;</ReturnType>
@@ -4181,6 +4956,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.UInt64&gt;</ReturnType>
@@ -4214,6 +4990,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Double&gt;</ReturnType>
@@ -4245,6 +5022,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
@@ -4276,6 +5054,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -4307,6 +5086,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -4342,6 +5122,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -4375,6 +5156,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -4408,6 +5190,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -4441,6 +5224,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -4474,6 +5258,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -4507,6 +5292,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -4540,6 +5326,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -4573,6 +5360,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -4606,6 +5394,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -4639,6 +5428,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -4672,6 +5462,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -4705,6 +5496,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -4738,6 +5530,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -4775,6 +5568,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -4812,6 +5606,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -4845,6 +5640,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -4877,6 +5673,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -4910,6 +5707,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -4943,6 +5741,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -4976,6 +5775,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5009,6 +5809,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5042,6 +5843,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5075,6 +5877,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5108,6 +5911,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5141,6 +5945,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5174,6 +5979,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5207,6 +6013,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5240,6 +6047,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5273,6 +6081,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5306,6 +6115,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5339,6 +6149,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5372,6 +6183,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5405,6 +6217,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5438,6 +6251,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5471,6 +6285,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5504,6 +6319,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5537,6 +6353,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5570,6 +6387,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5603,6 +6421,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5636,6 +6455,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5669,6 +6489,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5702,6 +6523,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5735,6 +6557,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5768,6 +6591,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5801,6 +6625,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5834,6 +6659,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -5868,6 +6694,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -5903,6 +6730,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -5938,6 +6766,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -5973,6 +6802,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6004,6 +6834,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6035,6 +6866,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6066,6 +6898,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6097,6 +6930,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6128,6 +6962,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6159,6 +6994,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6190,6 +7026,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6221,6 +7058,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6252,6 +7090,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6283,6 +7122,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6318,6 +7158,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6353,6 +7194,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6384,6 +7226,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6415,6 +7258,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6446,6 +7290,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6477,6 +7322,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6508,6 +7354,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6539,6 +7386,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6570,6 +7418,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6601,6 +7450,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6632,6 +7482,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6663,6 +7514,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6698,6 +7550,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6733,6 +7586,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6764,6 +7618,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6795,6 +7650,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6826,6 +7682,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6857,6 +7714,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6888,6 +7746,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6919,6 +7778,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6950,6 +7810,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -6981,6 +7842,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -7012,6 +7874,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -7043,6 +7906,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -7078,6 +7942,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -7113,6 +7978,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -7148,6 +8014,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -7183,6 +8050,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>
@@ -7218,6 +8086,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Double&gt;</ReturnType>
@@ -7253,6 +8122,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector256&lt;System.Single&gt;</ReturnType>

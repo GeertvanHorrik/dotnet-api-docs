@@ -14,6 +14,7 @@
     <AssemblyVersion>1.2.3.0</AssemblyVersion>
     <AssemblyVersion>1.2.4.0</AssemblyVersion>
     <AssemblyVersion>1.2.5.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -43,6 +44,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -87,6 +89,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TAccumulate</ReturnType>
@@ -135,6 +138,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TResult</ReturnType>
@@ -187,6 +191,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -225,6 +230,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -261,6 +267,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -297,6 +304,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -335,6 +343,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -372,6 +381,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -409,6 +419,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -445,6 +456,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -481,6 +493,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -519,6 +532,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -554,6 +568,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -589,6 +604,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -626,6 +642,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -662,6 +679,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -698,6 +716,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -736,6 +755,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -771,6 +791,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -806,6 +827,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -843,6 +865,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TResult&gt;</ReturnType>
@@ -882,6 +905,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TResult&gt;</ReturnType>
@@ -912,7 +936,7 @@
       <MemberSignature Language="C#" Value="public static bool SequenceEqual&lt;TDerived,TBase&gt; (this System.Collections.Immutable.ImmutableArray&lt;TBase&gt; immutableArray, System.Collections.Generic.IEnumerable&lt;TDerived&gt; items, System.Collections.Generic.IEqualityComparer&lt;TBase&gt; comparer = default) where TDerived : TBase;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool SequenceEqual&lt;(!!TBase) TDerived, TBase&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!TBase&gt; immutableArray, class System.Collections.Generic.IEnumerable`1&lt;!!TDerived&gt; items, class System.Collections.Generic.IEqualityComparer`1&lt;!!TBase&gt; comparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Linq.ImmutableArrayExtensions.SequenceEqual``2(System.Collections.Immutable.ImmutableArray{``1},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``1})" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SequenceEqual(Of TDerived As TBase, TBase As TBase) (immutableArray As ImmutableArray(Of TBase), items As IEnumerable(Of TDerived), Optional comparer As IEqualityComparer(Of TBase) = null) As Boolean" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SequenceEqual(Of TDerived As TBase, TBase As TBase) (immutableArray As ImmutableArray(Of TBase), items As IEnumerable(Of TDerived), Optional comparer As IEqualityComparer(Of TBase) = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="static member SequenceEqual : System.Collections.Immutable.ImmutableArray&lt;'Base&gt; * seq&lt;#'Base&gt; * System.Collections.Generic.IEqualityComparer&lt;'Base&gt; -&gt; bool" Usage="System.Linq.ImmutableArrayExtensions.SequenceEqual (immutableArray, items, comparer)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -924,6 +948,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -957,7 +982,7 @@
       <MemberSignature Language="C#" Value="public static bool SequenceEqual&lt;TDerived,TBase&gt; (this System.Collections.Immutable.ImmutableArray&lt;TBase&gt; immutableArray, System.Collections.Immutable.ImmutableArray&lt;TDerived&gt; items, System.Collections.Generic.IEqualityComparer&lt;TBase&gt; comparer = default) where TDerived : TBase;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool SequenceEqual&lt;(!!TBase) TDerived, TBase&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!TBase&gt; immutableArray, valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!TDerived&gt; items, class System.Collections.Generic.IEqualityComparer`1&lt;!!TBase&gt; comparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Linq.ImmutableArrayExtensions.SequenceEqual``2(System.Collections.Immutable.ImmutableArray{``1},System.Collections.Immutable.ImmutableArray{``0},System.Collections.Generic.IEqualityComparer{``1})" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SequenceEqual(Of TDerived As TBase, TBase As TBase) (immutableArray As ImmutableArray(Of TBase), items As ImmutableArray(Of TDerived), Optional comparer As IEqualityComparer(Of TBase) = null) As Boolean" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SequenceEqual(Of TDerived As TBase, TBase As TBase) (immutableArray As ImmutableArray(Of TBase), items As ImmutableArray(Of TDerived), Optional comparer As IEqualityComparer(Of TBase) = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="static member SequenceEqual : System.Collections.Immutable.ImmutableArray&lt;'Base&gt; * System.Collections.Immutable.ImmutableArray&lt;#'Base&gt; * System.Collections.Generic.IEqualityComparer&lt;'Base&gt; -&gt; bool" Usage="System.Linq.ImmutableArrayExtensions.SequenceEqual (immutableArray, items, comparer)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -969,6 +994,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1015,6 +1041,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1061,6 +1088,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -1096,6 +1124,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -1133,6 +1162,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -1170,6 +1200,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -1208,6 +1239,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T[]</ReturnType>
@@ -1243,6 +1275,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;TKey,T&gt;</ReturnType>
@@ -1282,6 +1315,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;TKey,T&gt;</ReturnType>
@@ -1323,6 +1357,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;TKey,TElement&gt;</ReturnType>
@@ -1366,6 +1401,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;TKey,TElement&gt;</ReturnType>
@@ -1411,6 +1447,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;T&gt;</ReturnType>

@@ -9,6 +9,7 @@
     <AssemblyName>System.Text.Json</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -47,6 +48,7 @@ For more information, see [How to serialize and deserialize JSON](~/docs/standar
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -61,13 +63,14 @@ For more information, see [How to serialize and deserialize JSON](~/docs/standar
       <MemberSignature Language="C#" Value="public static System.Text.Json.JsonDocument Parse (System.Buffers.ReadOnlySequence&lt;byte&gt; utf8Json, System.Text.Json.JsonDocumentOptions options = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Text.Json.JsonDocument Parse(valuetype System.Buffers.ReadOnlySequence`1&lt;unsigned int8&gt; utf8Json, valuetype System.Text.Json.JsonDocumentOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonDocument.Parse(System.Buffers.ReadOnlySequence{System.Byte},System.Text.Json.JsonDocumentOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (utf8Json As ReadOnlySequence(Of Byte), Optional options As JsonDocumentOptions = null) As JsonDocument" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (utf8Json As ReadOnlySequence(Of Byte), Optional options As JsonDocumentOptions = Nothing) As JsonDocument" />
       <MemberSignature Language="F#" Value="static member Parse : System.Buffers.ReadOnlySequence&lt;byte&gt; * System.Text.Json.JsonDocumentOptions -&gt; System.Text.Json.JsonDocument" Usage="System.Text.Json.JsonDocument.Parse (utf8Json, options)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Json.JsonDocument</ReturnType>
@@ -101,13 +104,14 @@ Because the input is considered to be text, a UTF-8 Byte-Order-Mark (BOM) must n
       <MemberSignature Language="C#" Value="public static System.Text.Json.JsonDocument Parse (System.IO.Stream utf8Json, System.Text.Json.JsonDocumentOptions options = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Text.Json.JsonDocument Parse(class System.IO.Stream utf8Json, valuetype System.Text.Json.JsonDocumentOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonDocument.Parse(System.IO.Stream,System.Text.Json.JsonDocumentOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (utf8Json As Stream, Optional options As JsonDocumentOptions = null) As JsonDocument" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (utf8Json As Stream, Optional options As JsonDocumentOptions = Nothing) As JsonDocument" />
       <MemberSignature Language="F#" Value="static member Parse : System.IO.Stream * System.Text.Json.JsonDocumentOptions -&gt; System.Text.Json.JsonDocument" Usage="System.Text.Json.JsonDocument.Parse (utf8Json, options)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Json.JsonDocument</ReturnType>
@@ -132,13 +136,14 @@ Because the input is considered to be text, a UTF-8 Byte-Order-Mark (BOM) must n
       <MemberSignature Language="C#" Value="public static System.Text.Json.JsonDocument Parse (ReadOnlyMemory&lt;byte&gt; utf8Json, System.Text.Json.JsonDocumentOptions options = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Text.Json.JsonDocument Parse(valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; utf8Json, valuetype System.Text.Json.JsonDocumentOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonDocument.Parse(System.ReadOnlyMemory{System.Byte},System.Text.Json.JsonDocumentOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (utf8Json As ReadOnlyMemory(Of Byte), Optional options As JsonDocumentOptions = null) As JsonDocument" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (utf8Json As ReadOnlyMemory(Of Byte), Optional options As JsonDocumentOptions = Nothing) As JsonDocument" />
       <MemberSignature Language="F#" Value="static member Parse : ReadOnlyMemory&lt;byte&gt; * System.Text.Json.JsonDocumentOptions -&gt; System.Text.Json.JsonDocument" Usage="System.Text.Json.JsonDocument.Parse (utf8Json, options)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Json.JsonDocument</ReturnType>
@@ -170,13 +175,14 @@ Because the input is considered to be text, a UTF-8 Byte-Order-Mark (BOM) must n
       <MemberSignature Language="C#" Value="public static System.Text.Json.JsonDocument Parse (ReadOnlyMemory&lt;char&gt; json, System.Text.Json.JsonDocumentOptions options = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Text.Json.JsonDocument Parse(valuetype System.ReadOnlyMemory`1&lt;char&gt; json, valuetype System.Text.Json.JsonDocumentOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonDocument.Parse(System.ReadOnlyMemory{System.Char},System.Text.Json.JsonDocumentOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (json As ReadOnlyMemory(Of Char), Optional options As JsonDocumentOptions = null) As JsonDocument" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (json As ReadOnlyMemory(Of Char), Optional options As JsonDocumentOptions = Nothing) As JsonDocument" />
       <MemberSignature Language="F#" Value="static member Parse : ReadOnlyMemory&lt;char&gt; * System.Text.Json.JsonDocumentOptions -&gt; System.Text.Json.JsonDocument" Usage="System.Text.Json.JsonDocument.Parse (json, options)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Json.JsonDocument</ReturnType>
@@ -206,13 +212,14 @@ The <xref:System.ReadOnlyMemory%601> value may be used for the entire lifetime o
       <MemberSignature Language="C#" Value="public static System.Text.Json.JsonDocument Parse (string json, System.Text.Json.JsonDocumentOptions options = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Text.Json.JsonDocument Parse(string json, valuetype System.Text.Json.JsonDocumentOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonDocument.Parse(System.String,System.Text.Json.JsonDocumentOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (json As String, Optional options As JsonDocumentOptions = null) As JsonDocument" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (json As String, Optional options As JsonDocumentOptions = Nothing) As JsonDocument" />
       <MemberSignature Language="F#" Value="static member Parse : string * System.Text.Json.JsonDocumentOptions -&gt; System.Text.Json.JsonDocument" Usage="System.Text.Json.JsonDocument.Parse (json, options)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Json.JsonDocument</ReturnType>
@@ -237,13 +244,14 @@ The <xref:System.ReadOnlyMemory%601> value may be used for the entire lifetime o
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Text.Json.JsonDocument&gt; ParseAsync (System.IO.Stream utf8Json, System.Text.Json.JsonDocumentOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Text.Json.JsonDocument&gt; ParseAsync(class System.IO.Stream utf8Json, valuetype System.Text.Json.JsonDocumentOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonDocument.ParseAsync(System.IO.Stream,System.Text.Json.JsonDocumentOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ParseAsync (utf8Json As Stream, Optional options As JsonDocumentOptions = null, Optional cancellationToken As CancellationToken = null) As Task(Of JsonDocument)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ParseAsync (utf8Json As Stream, Optional options As JsonDocumentOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of JsonDocument)" />
       <MemberSignature Language="F#" Value="static member ParseAsync : System.IO.Stream * System.Text.Json.JsonDocumentOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Text.Json.JsonDocument&gt;" Usage="System.Text.Json.JsonDocument.ParseAsync (utf8Json, options, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Text.Json.JsonDocument&gt;</ReturnType>
@@ -278,6 +286,7 @@ The <xref:System.ReadOnlyMemory%601> value may be used for the entire lifetime o
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Json.JsonDocument</ReturnType>
@@ -324,6 +333,7 @@ The current <paramref name="reader" /> token does not start or represent a value
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Json.JsonElement</ReturnType>
@@ -346,13 +356,21 @@ The current <paramref name="reader" /> token does not start or represent a value
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
-        <Parameter Name="document" Type="System.Text.Json.JsonDocument" RefType="out" />
+        <Parameter Name="document" Type="System.Text.Json.JsonDocument" RefType="out">
+          <Attributes>
+            <Attribute FrameworkAlternate="net-5.0">
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullWhen(true)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullWhen(true)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
       </Parameters>
       <Docs>
         <param name="reader">The reader to read.</param>
@@ -395,6 +413,7 @@ The current <paramref name="reader" /> token does not start or represent a value
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

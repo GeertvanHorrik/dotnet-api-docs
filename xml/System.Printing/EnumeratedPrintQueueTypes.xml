@@ -1,6 +1,6 @@
 <Type Name="EnumeratedPrintQueueTypes" FullName="System.Printing.EnumeratedPrintQueueTypes">
   <TypeSignature Language="C#" Value="public enum EnumeratedPrintQueueTypes" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EnumeratedPrintQueueTypes extends System.Enum" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EnumeratedPrintQueueTypes extends System.Enum" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0;netcore-3.0;netcore-3.1" />
   <TypeSignature Language="DocId" Value="T:System.Printing.EnumeratedPrintQueueTypes" />
   <TypeSignature Language="VB.NET" Value="Public Enum EnumeratedPrintQueueTypes" />
   <TypeSignature Language="C++ CLI" Value="public enum class EnumeratedPrintQueueTypes" />
@@ -10,13 +10,15 @@
     <AssemblyName>System.Printing</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Flags</AttributeName>
+      <AttributeName Language="C#">[System.Flags]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Flags&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -56,6 +58,7 @@
         <AssemblyName>System.Printing</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Printing.EnumeratedPrintQueueTypes</ReturnType>
@@ -77,6 +80,7 @@
         <AssemblyName>System.Printing</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Printing.EnumeratedPrintQueueTypes</ReturnType>
@@ -98,6 +102,7 @@
         <AssemblyName>System.Printing</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Printing.EnumeratedPrintQueueTypes</ReturnType>
@@ -119,6 +124,7 @@
         <AssemblyName>System.Printing</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Printing.EnumeratedPrintQueueTypes</ReturnType>
@@ -140,6 +146,7 @@
         <AssemblyName>System.Printing</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Printing.EnumeratedPrintQueueTypes</ReturnType>
@@ -161,6 +168,7 @@
         <AssemblyName>System.Printing</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Printing.EnumeratedPrintQueueTypes</ReturnType>
@@ -182,6 +190,7 @@
         <AssemblyName>System.Printing</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Printing.EnumeratedPrintQueueTypes</ReturnType>
@@ -203,6 +212,7 @@
         <AssemblyName>System.Printing</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Printing.EnumeratedPrintQueueTypes</ReturnType>
@@ -224,6 +234,7 @@
         <AssemblyName>System.Printing</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Printing.EnumeratedPrintQueueTypes</ReturnType>
@@ -245,6 +256,7 @@
         <AssemblyName>System.Printing</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Printing.EnumeratedPrintQueueTypes</ReturnType>
@@ -266,6 +278,7 @@
         <AssemblyName>System.Printing</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Printing.EnumeratedPrintQueueTypes</ReturnType>
@@ -287,6 +300,7 @@
         <AssemblyName>System.Printing</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Printing.EnumeratedPrintQueueTypes</ReturnType>
@@ -308,6 +322,7 @@
         <AssemblyName>System.Printing</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Printing.EnumeratedPrintQueueTypes</ReturnType>
@@ -329,6 +344,7 @@
         <AssemblyName>System.Printing</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Printing.EnumeratedPrintQueueTypes</ReturnType>
@@ -350,6 +366,7 @@
         <AssemblyName>System.Printing</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Printing.EnumeratedPrintQueueTypes</ReturnType>

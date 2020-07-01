@@ -13,6 +13,7 @@
     <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Runtime.Intrinsics.X86.Sse3</BaseTypeName>
@@ -20,7 +21,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.CLSCompliant(false)</AttributeName>
+      <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -44,6 +46,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.UInt16&gt;</ReturnType>
@@ -77,6 +80,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.UInt32&gt;</ReturnType>
@@ -110,6 +114,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Byte&gt;</ReturnType>
@@ -139,6 +144,7 @@
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Byte&gt;</ReturnType>
@@ -180,6 +186,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int16&gt;</ReturnType>
@@ -221,6 +228,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int32&gt;</ReturnType>
@@ -262,6 +270,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int64&gt;</ReturnType>
@@ -307,6 +316,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.SByte&gt;</ReturnType>
@@ -340,6 +350,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.UInt16&gt;</ReturnType>
@@ -381,6 +392,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.UInt32&gt;</ReturnType>
@@ -422,6 +434,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.UInt64&gt;</ReturnType>
@@ -467,6 +480,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int16&gt;</ReturnType>
@@ -502,6 +516,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int32&gt;</ReturnType>
@@ -537,6 +552,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int16&gt;</ReturnType>
@@ -572,6 +588,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int16&gt;</ReturnType>
@@ -607,6 +624,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int32&gt;</ReturnType>
@@ -642,6 +660,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int16&gt;</ReturnType>
@@ -677,6 +696,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -703,6 +723,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int16&gt;</ReturnType>
@@ -738,6 +759,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int16&gt;</ReturnType>
@@ -769,6 +791,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Byte&gt;</ReturnType>
@@ -804,6 +827,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.SByte&gt;</ReturnType>
@@ -839,6 +863,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int16&gt;</ReturnType>
@@ -874,6 +899,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Int32&gt;</ReturnType>
@@ -909,6 +935,7 @@ This intrinsic generates PALIGNR that operates over bytes rather than elements o
         <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.SByte&gt;</ReturnType>

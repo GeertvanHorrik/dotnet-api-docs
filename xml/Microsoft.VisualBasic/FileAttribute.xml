@@ -15,13 +15,15 @@
     <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
     <AssemblyVersion>10.0.4.0</AssemblyVersion>
     <AssemblyVersion>10.0.5.0</AssemblyVersion>
+    <AssemblyVersion>10.0.6.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Flags</AttributeName>
+      <AttributeName Language="C#">[System.Flags]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Flags&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -64,6 +66,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.VisualBasic.FileAttribute</ReturnType>
@@ -91,6 +94,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.VisualBasic.FileAttribute</ReturnType>
@@ -118,6 +122,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.VisualBasic.FileAttribute</ReturnType>
@@ -145,6 +150,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.VisualBasic.FileAttribute</ReturnType>
@@ -172,6 +178,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.VisualBasic.FileAttribute</ReturnType>
@@ -199,6 +206,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.VisualBasic.FileAttribute</ReturnType>
@@ -226,6 +234,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.VisualBasic.FileAttribute</ReturnType>

@@ -9,11 +9,15 @@
     <AssemblyName>System.IO.FileSystem</AssemblyName>
     <AssemblyVersion>4.1.1.0</AssemblyVersion>
     <AssemblyVersion>4.1.2.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>netstandard</AssemblyName>
     <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.IO.FileSystem" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+  </TypeForwardingChain>
   <TypeParameters>
     <TypeParameter Name="TResult" />
   </TypeParameters>
@@ -38,13 +42,14 @@
       <MemberSignature Language="C#" Value="public FileSystemEnumerable (string directory, System.IO.Enumeration.FileSystemEnumerable&lt;TResult&gt;.FindTransform transform, System.IO.EnumerationOptions options = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string directory, class System.IO.Enumeration.FileSystemEnumerable`1/FindTransform&lt;!TResult&gt; transform, class System.IO.EnumerationOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Enumeration.FileSystemEnumerable`1.#ctor(System.String,System.IO.Enumeration.FileSystemEnumerable`1.FindTransform{`0},System.IO.EnumerationOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (directory As String, transform As FileSystemEnumerable(Of TResult).FindTransform, Optional options As EnumerationOptions = null)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (directory As String, transform As FileSystemEnumerable(Of TResult).FindTransform, Optional options As EnumerationOptions = Nothing)" />
       <MemberSignature Language="F#" Value="new System.IO.Enumeration.FileSystemEnumerable&lt;'Result&gt; : string * System.IO.Enumeration.FileSystemEnumerable&lt;'Result&gt;.FindTransform * System.IO.EnumerationOptions -&gt; System.IO.Enumeration.FileSystemEnumerable&lt;'Result&gt;" Usage="new System.IO.Enumeration.FileSystemEnumerable&lt;'Result&gt; (directory, transform, options)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.FileSystem</AssemblyName>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -85,6 +90,7 @@
         <AssemblyName>System.IO.FileSystem</AssemblyName>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -112,6 +118,7 @@
         <AssemblyName>System.IO.FileSystem</AssemblyName>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -138,6 +145,7 @@
         <AssemblyName>System.IO.FileSystem</AssemblyName>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -167,6 +175,7 @@
         <AssemblyName>System.IO.FileSystem</AssemblyName>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>

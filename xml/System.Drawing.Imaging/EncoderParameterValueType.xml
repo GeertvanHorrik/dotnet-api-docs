@@ -17,6 +17,7 @@
     <AssemblyVersion>4.0.0.1</AssemblyVersion>
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
     <AssemblyVersion>4.0.2.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -56,6 +57,7 @@
         <AssemblyVersion>4.0.0.1</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Imaging.EncoderParameterValueType</ReturnType>
@@ -85,6 +87,7 @@
         <AssemblyVersion>4.0.0.1</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Imaging.EncoderParameterValueType</ReturnType>
@@ -114,6 +117,7 @@
         <AssemblyVersion>4.0.0.1</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Imaging.EncoderParameterValueType</ReturnType>
@@ -143,6 +147,7 @@
         <AssemblyVersion>4.0.0.1</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Imaging.EncoderParameterValueType</ReturnType>
@@ -150,6 +155,26 @@
       <MemberValue>6</MemberValue>
       <Docs>
         <summary>Specifies that each value in the array is a pair of 32-bit unsigned integers. Each pair represents a range of numbers.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ValueTypePointer">
+      <MemberSignature Language="C#" Value="ValueTypePointer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Drawing.Imaging.EncoderParameterValueType ValueTypePointer = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:System.Drawing.Imaging.EncoderParameterValueType.ValueTypePointer" />
+      <MemberSignature Language="VB.NET" Value="ValueTypePointer" />
+      <MemberSignature Language="C++ CLI" Value="ValueTypePointer" />
+      <MemberSignature Language="F#" Value="ValueTypePointer = 9" Usage="System.Drawing.Imaging.EncoderParameterValueType.ValueTypePointer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Drawing.Imaging.EncoderParameterValueType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="ValueTypeRational">
@@ -172,6 +197,7 @@
         <AssemblyVersion>4.0.0.1</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Imaging.EncoderParameterValueType</ReturnType>
@@ -201,6 +227,7 @@
         <AssemblyVersion>4.0.0.1</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Imaging.EncoderParameterValueType</ReturnType>
@@ -230,6 +257,7 @@
         <AssemblyVersion>4.0.0.1</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Imaging.EncoderParameterValueType</ReturnType>
@@ -259,6 +287,7 @@
         <AssemblyVersion>4.0.0.1</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Imaging.EncoderParameterValueType</ReturnType>

@@ -9,6 +9,7 @@
     <AssemblyName>System.Resources.Extensions</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -38,6 +39,7 @@
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="stream" Type="System.IO.Stream" />
@@ -64,6 +66,7 @@
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="fileName" Type="System.String" />
@@ -86,6 +89,7 @@
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -112,13 +116,14 @@
       <MemberSignature Language="C#" Value="public void AddBinaryFormattedResource (string name, byte[] value, string typeName = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddBinaryFormattedResource(string name, unsigned int8[] value, string typeName) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Resources.Extensions.PreserializedResourceWriter.AddBinaryFormattedResource(System.String,System.Byte[],System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub AddBinaryFormattedResource (name As String, value As Byte(), Optional typeName As String = null)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddBinaryFormattedResource (name As String, value As Byte(), Optional typeName As String = Nothing)" />
       <MemberSignature Language="F#" Value="member this.AddBinaryFormattedResource : string * byte[] * string -&gt; unit" Usage="preserializedResourceWriter.AddBinaryFormattedResource (name, value, typeName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -153,6 +158,7 @@
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -193,6 +199,7 @@ The resources are not written until <xref:System.Resources.Extensions.Preseriali
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -234,6 +241,7 @@ The resources are not written until <xref:System.Resources.Extensions.Preseriali
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -270,6 +278,7 @@ The resources are not written until <xref:System.Resources.Extensions.Preseriali
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -307,6 +316,7 @@ The resources are not written until <xref:System.Resources.Extensions.Preseriali
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -344,6 +354,7 @@ If the type is a primitive type, the value will be converted using <xref:System.
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -376,6 +387,7 @@ If the type is a primitive type, the value will be converted using <xref:System.
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -402,6 +414,7 @@ If the type is a primitive type, the value will be converted using <xref:System.
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -428,6 +441,7 @@ If the type is a primitive type, the value will be converted using <xref:System.
         <AssemblyName>System.Resources.Extensions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

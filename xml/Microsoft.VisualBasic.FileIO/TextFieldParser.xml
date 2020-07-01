@@ -1,6 +1,6 @@
 <Type Name="TextFieldParser" FullName="Microsoft.VisualBasic.FileIO.TextFieldParser">
   <TypeSignature Language="C#" Value="public class TextFieldParser : IDisposable" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TextFieldParser extends System.Object implements class System.IDisposable" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TextFieldParser extends System.Object implements class System.IDisposable" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
   <TypeSignature Language="DocId" Value="T:Microsoft.VisualBasic.FileIO.TextFieldParser" />
   <TypeSignature Language="VB.NET" Value="Public Class TextFieldParser&#xA;Implements IDisposable" />
   <TypeSignature Language="C++ CLI" Value="public ref class TextFieldParser : IDisposable" />
@@ -15,6 +15,7 @@
     <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
     <AssemblyVersion>10.0.4.0</AssemblyVersion>
     <AssemblyVersion>10.0.5.0</AssemblyVersion>
+    <AssemblyVersion>10.0.6.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -70,7 +71,7 @@
     </MemberGroup>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public TextFieldParser (System.IO.Stream stream);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.IO.Stream stream) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.IO.Stream stream) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.#ctor(System.IO.Stream)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (stream As Stream)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; TextFieldParser(System::IO::Stream ^ stream);" />
@@ -86,6 +87,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="stream" Type="System.IO.Stream" />
@@ -115,7 +117,7 @@
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public TextFieldParser (System.IO.TextReader reader);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.IO.TextReader reader) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.IO.TextReader reader) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.#ctor(System.IO.TextReader)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (reader As TextReader)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; TextFieldParser(System::IO::TextReader ^ reader);" />
@@ -131,6 +133,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="reader" Type="System.IO.TextReader" />
@@ -158,7 +161,7 @@
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public TextFieldParser (string path);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string path) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string path) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.#ctor(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (path As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; TextFieldParser(System::String ^ path);" />
@@ -174,6 +177,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="path" Type="System.String" />
@@ -201,7 +205,7 @@
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public TextFieldParser (System.IO.Stream stream, System.Text.Encoding defaultEncoding);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.IO.Stream stream, class System.Text.Encoding defaultEncoding) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.IO.Stream stream, class System.Text.Encoding defaultEncoding) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.#ctor(System.IO.Stream,System.Text.Encoding)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (stream As Stream, defaultEncoding As Encoding)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; TextFieldParser(System::IO::Stream ^ stream, System::Text::Encoding ^ defaultEncoding);" />
@@ -217,6 +221,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="stream" Type="System.IO.Stream" />
@@ -252,7 +257,7 @@
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public TextFieldParser (string path, System.Text.Encoding defaultEncoding);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string path, class System.Text.Encoding defaultEncoding) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string path, class System.Text.Encoding defaultEncoding) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.#ctor(System.String,System.Text.Encoding)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (path As String, defaultEncoding As Encoding)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; TextFieldParser(System::String ^ path, System::Text::Encoding ^ defaultEncoding);" />
@@ -268,6 +273,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="path" Type="System.String" />
@@ -301,7 +307,7 @@
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public TextFieldParser (System.IO.Stream stream, System.Text.Encoding defaultEncoding, bool detectEncoding);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.IO.Stream stream, class System.Text.Encoding defaultEncoding, bool detectEncoding) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.IO.Stream stream, class System.Text.Encoding defaultEncoding, bool detectEncoding) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.#ctor(System.IO.Stream,System.Text.Encoding,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (stream As Stream, defaultEncoding As Encoding, detectEncoding As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; TextFieldParser(System::IO::Stream ^ stream, System::Text::Encoding ^ defaultEncoding, bool detectEncoding);" />
@@ -317,6 +323,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="stream" Type="System.IO.Stream" />
@@ -357,7 +364,7 @@
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public TextFieldParser (string path, System.Text.Encoding defaultEncoding, bool detectEncoding);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string path, class System.Text.Encoding defaultEncoding, bool detectEncoding) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string path, class System.Text.Encoding defaultEncoding, bool detectEncoding) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.#ctor(System.String,System.Text.Encoding,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (path As String, defaultEncoding As Encoding, detectEncoding As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; TextFieldParser(System::String ^ path, System::Text::Encoding ^ defaultEncoding, bool detectEncoding);" />
@@ -373,6 +380,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="path" Type="System.String" />
@@ -411,7 +419,7 @@
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public TextFieldParser (System.IO.Stream stream, System.Text.Encoding defaultEncoding, bool detectEncoding, bool leaveOpen);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.IO.Stream stream, class System.Text.Encoding defaultEncoding, bool detectEncoding, bool leaveOpen) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.IO.Stream stream, class System.Text.Encoding defaultEncoding, bool detectEncoding, bool leaveOpen) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.#ctor(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (stream As Stream, defaultEncoding As Encoding, detectEncoding As Boolean, leaveOpen As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; TextFieldParser(System::IO::Stream ^ stream, System::Text::Encoding ^ defaultEncoding, bool detectEncoding, bool leaveOpen);" />
@@ -427,6 +435,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="stream" Type="System.IO.Stream" />
@@ -470,7 +479,7 @@
     </Member>
     <Member MemberName="Close">
       <MemberSignature Language="C#" Value="public void Close ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Close() cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Close() cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.Close" />
       <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close();" />
@@ -486,13 +495,16 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+        <Attribute FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
+        <Attribute FrameworkAlternate="netframework-4.0">
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -533,13 +545,16 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -590,10 +605,12 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -675,7 +692,7 @@
     </Member>
     <Member MemberName="Dispose">
       <MemberSignature Language="C#" Value="protected virtual void Dispose (bool disposing);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool disposing) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool disposing) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.Dispose(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (disposing As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void Dispose(bool disposing);" />
@@ -691,6 +708,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -723,6 +741,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -774,10 +793,12 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -836,10 +857,12 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -898,10 +921,12 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -946,7 +971,7 @@
     </Member>
     <Member MemberName="Finalize">
       <MemberSignature Language="C#" Value="~TextFieldParser ();" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.Finalize" />
       <MemberSignature Language="VB.NET" Value="Finalize ()" />
       <MemberSignature Language="C++ CLI" Value="!TextFieldParser ()" />
@@ -962,6 +987,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -991,16 +1017,20 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1050,10 +1080,12 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1085,7 +1117,7 @@
     </Member>
     <Member MemberName="PeekChars">
       <MemberSignature Language="C#" Value="public string PeekChars (int numberOfChars);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string PeekChars(int32 numberOfChars) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string PeekChars(int32 numberOfChars) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.PeekChars(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function PeekChars (numberOfChars As Integer) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ PeekChars(int numberOfChars);" />
@@ -1101,6 +1133,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1149,7 +1182,7 @@
     </Member>
     <Member MemberName="ReadFields">
       <MemberSignature Language="C#" Value="public string[] ReadFields ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string[] ReadFields() cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string[] ReadFields() cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.ReadFields" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadFields () As String()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; cli::array &lt;System::String ^&gt; ^ ReadFields();" />
@@ -1165,6 +1198,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String[]</ReturnType>
@@ -1214,7 +1248,7 @@
     </Member>
     <Member MemberName="ReadLine">
       <MemberSignature Language="C#" Value="public string ReadLine ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ReadLine() cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ReadLine() cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.ReadLine" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadLine () As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ ReadLine();" />
@@ -1230,10 +1264,12 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1273,7 +1309,7 @@
     </Member>
     <Member MemberName="ReadToEnd">
       <MemberSignature Language="C#" Value="public string ReadToEnd ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ReadToEnd() cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ReadToEnd() cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.ReadToEnd" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadToEnd () As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ ReadToEnd();" />
@@ -1289,10 +1325,12 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Advanced)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1332,7 +1370,7 @@
     </Member>
     <Member MemberName="SetDelimiters">
       <MemberSignature Language="C#" Value="public void SetDelimiters (params string[] delimiters);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetDelimiters(string[] delimiters) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetDelimiters(string[] delimiters) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.SetDelimiters(System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetDelimiters (ParamArray delimiters As String())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetDelimiters(... cli::array &lt;System::String ^&gt; ^ delimiters);" />
@@ -1348,10 +1386,12 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1360,8 +1400,9 @@
       <Parameters>
         <Parameter Name="delimiters" Type="System.String[]">
           <Attributes>
-            <Attribute FrameworkAlternate="netcore-3.0">
-              <AttributeName>System.ParamArray</AttributeName>
+            <Attribute FrameworkAlternate="net-5.0">
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -1404,7 +1445,7 @@
     </Member>
     <Member MemberName="SetFieldWidths">
       <MemberSignature Language="C#" Value="public void SetFieldWidths (params int[] fieldWidths);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetFieldWidths(int32[] fieldWidths) cil managed" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetFieldWidths(int32[] fieldWidths) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.TextFieldParser.SetFieldWidths(System.Int32[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetFieldWidths (ParamArray fieldWidths As Integer())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetFieldWidths(... cli::array &lt;int&gt; ^ fieldWidths);" />
@@ -1420,10 +1461,12 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1432,8 +1475,9 @@
       <Parameters>
         <Parameter Name="fieldWidths" Type="System.Int32[]">
           <Attributes>
-            <Attribute FrameworkAlternate="netcore-3.0">
-              <AttributeName>System.ParamArray</AttributeName>
+            <Attribute FrameworkAlternate="net-5.0">
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -1493,9 +1537,7 @@
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.VisualBasic</AssemblyName>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1531,10 +1573,12 @@ This member is an explicit interface member implementation. It can be used only 
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1597,13 +1641,16 @@ This member is an explicit interface member implementation. It can be used only 
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
+        <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
+          <AttributeName Language="C#">[set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

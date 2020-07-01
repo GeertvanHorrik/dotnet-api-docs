@@ -5,7 +5,7 @@
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ImmutableDictionary(Of TKey, TValue).Builder&#xA;Implements ICollection(Of KeyValuePair(Of TKey, TValue)), IDictionary, IDictionary(Of TKey, TValue), IEnumerable(Of KeyValuePair(Of TKey, TValue)), IReadOnlyCollection(Of KeyValuePair(Of TKey, TValue)), IReadOnlyDictionary(Of TKey, TValue)" />
   <TypeSignature Language="C++ CLI" Value="public: ref class ImmutableDictionary&lt;TKey, TValue&gt;::Builder sealed : System::Collections::Generic::ICollection&lt;System::Collections::Generic::KeyValuePair&lt;TKey, TValue&gt;&gt;, System::Collections::Generic::IDictionary&lt;TKey, TValue&gt;, System::Collections::Generic::IEnumerable&lt;System::Collections::Generic::KeyValuePair&lt;TKey, TValue&gt;&gt;, System::Collections::Generic::IReadOnlyCollection&lt;System::Collections::Generic::KeyValuePair&lt;TKey, TValue&gt;&gt;, System::Collections::Generic::IReadOnlyDictionary&lt;TKey, TValue&gt;, System::Collections::IDictionary" />
   <TypeSignature Language="F#" Value="type ImmutableDictionary&lt;'Key, 'Value&gt;.Builder = class&#xA;    interface IDictionary&lt;'Key, 'Value&gt;&#xA;    interface ICollection&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface seq&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface IEnumerable&#xA;    interface IReadOnlyDictionary&lt;'Key, 'Value&gt;&#xA;    interface IReadOnlyCollection&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface IDictionary&#xA;    interface ICollection" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1" />
-  <TypeSignature Language="F#" Value="type ImmutableDictionary&lt;'Key, 'Value&gt;.Builder = class&#xA;    interface ICollection&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface seq&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface IEnumerable&#xA;    interface IDictionary&lt;'Key, 'Value&gt;&#xA;    interface IReadOnlyCollection&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface IReadOnlyDictionary&lt;'Key, 'Value&gt;&#xA;    interface ICollection&#xA;    interface IDictionary" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="F#" Value="type ImmutableDictionary&lt;'Key, 'Value&gt;.Builder = class&#xA;    interface ICollection&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface seq&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface IEnumerable&#xA;    interface IDictionary&lt;'Key, 'Value&gt;&#xA;    interface IReadOnlyCollection&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface IReadOnlyDictionary&lt;'Key, 'Value&gt;&#xA;    interface ICollection&#xA;    interface IDictionary" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
   <AssemblyInfo>
     <AssemblyName>System.Collections.Immutable</AssemblyName>
     <AssemblyVersion>1.1.37.0</AssemblyVersion>
@@ -15,6 +15,7 @@
     <AssemblyVersion>1.2.3.0</AssemblyVersion>
     <AssemblyVersion>1.2.4.0</AssemblyVersion>
     <AssemblyVersion>1.2.5.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="TKey" />
@@ -53,11 +54,13 @@
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-uwp-10.0">
-      <AttributeName>System.Diagnostics.DebuggerDisplay("Count = {Count}")</AttributeName>
+    <Attribute FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1">
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("Count = {Count}")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("Count = {Count}")&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-uwp-10.0">
-      <AttributeName>System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableDictionaryBuilderDebuggerProxy`2))</AttributeName>
+    <Attribute FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1">
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableDictionaryBuilderDebuggerProxy`2))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableDictionaryBuilderDebuggerProxy`2))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -94,6 +97,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -128,6 +132,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -164,6 +169,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -198,6 +204,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -229,6 +236,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -265,6 +273,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -299,6 +308,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -325,7 +335,7 @@
       <Implements>
         <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
         <InterfaceMember>P:System.Collections.Generic.IReadOnlyCollection`1.Count</InterfaceMember>
-        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1">P:System.Collections.ICollection.Count</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -336,6 +346,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -363,6 +374,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableDictionary&lt;TKey,TValue&gt;+Enumerator</ReturnType>
@@ -391,6 +403,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TValue</ReturnType>
@@ -422,6 +435,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TValue</ReturnType>
@@ -458,6 +472,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TValue</ReturnType>
@@ -493,6 +508,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEqualityComparer&lt;TKey&gt;</ReturnType>
@@ -523,13 +539,16 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
-          <AttributeName>get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Keys&gt;d__18))</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="dotnet-uwp-10.0">
-          <AttributeName>get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Keys&gt;d__1))</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Keys&gt;d__1))]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Keys&gt;d__1))&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
+          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Keys&gt;d__18))]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Keys&gt;d__18))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -561,6 +580,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -597,6 +617,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -632,6 +653,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -665,6 +687,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -700,6 +723,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -731,6 +755,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.ICollection&lt;TKey&gt;</ReturnType>
@@ -761,6 +786,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.ICollection&lt;TValue&gt;</ReturnType>
@@ -791,6 +817,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;</ReturnType>
@@ -822,6 +849,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -864,10 +892,12 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-uwp-10.0">
-          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        <Attribute FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1">
+          <AttributeName Language="C#">[System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -900,10 +930,12 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-uwp-10.0">
-          <AttributeName>System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)</AttributeName>
+        <Attribute FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1">
+          <AttributeName Language="C#">[System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerBrowsable(System.Diagnostics.DebuggerBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -935,6 +967,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -977,6 +1010,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1019,6 +1053,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.IDictionaryEnumerator</ReturnType>
@@ -1058,6 +1093,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1089,6 +1125,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1120,6 +1157,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -1154,6 +1192,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ICollection</ReturnType>
@@ -1184,6 +1223,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1224,6 +1264,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ICollection</ReturnType>
@@ -1254,6 +1295,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.IEnumerator</ReturnType>
@@ -1289,6 +1331,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableDictionary&lt;TKey,TValue&gt;</ReturnType>
@@ -1324,6 +1367,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1375,6 +1419,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1411,6 +1456,7 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEqualityComparer&lt;TValue&gt;</ReturnType>
@@ -1441,13 +1487,16 @@
         <AssemblyVersion>1.2.3.0</AssemblyVersion>
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
-          <AttributeName>get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Values&gt;d__22))</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="dotnet-uwp-10.0">
-          <AttributeName>get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Values&gt;d__1))</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Values&gt;d__1))]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Values&gt;d__1))&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
+          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Values&gt;d__22))]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Values&gt;d__22))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
